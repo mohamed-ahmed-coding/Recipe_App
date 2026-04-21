@@ -80,15 +80,15 @@ class _HomeScreenState extends State<HomeScreen> {
               ).then((_) => _loadUserName());
             },
             child: CircleAvatar(
-              radius: 20.r,
+              radius: 35.r,
               backgroundImage: avatarUrl.isNotEmpty
                   ? NetworkImage(avatarUrl)
                   : null,
               backgroundColor: AppColors.whiteColor,
               child: avatarUrl.isEmpty
                   ? Container(
-                    width: 60.w,
-                    height: 60.h,
+                    width: 90.w,
+                    height: 90.h,
                     decoration: BoxDecoration(
                       color: AppColors.textFieldColor,
                       shape: BoxShape.circle,
