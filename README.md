@@ -1,18 +1,85 @@
-# Recipe_App
-# recipe_app
+# 🍲 Recipe App
 
-A new Flutter project.
+A modern and clean **Flutter Recipe Application** that allows users to discover, search, and explore recipes with detailed information and a smooth user experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+* 🔍 Search for recipes (fast & responsive search)
+* 🍽️ View detailed recipe information (ingredients, instructions, cooking time)
+* ⭐ Display ratings and reviews
+* 🖼️ High-quality recipe images
+* ⚡ Smooth performance using Bloc
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🛠️ Tech Stack
+
+* 💙 Flutter
+* 🧠 Bloc / Cubit (State Management)
+* 🌐 REST APIs
+* 📦 Dio (HTTP Client)
+* 🧩 Equatable (Value Comparison)
+
+---
+
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash id="2dzfdg"
+git clone https://github.com/mohamed-ahmed-coding/Recipe_App.git
+```
+
+### 2. Navigate to the project
+
+```bash id="yh0e2c"
+cd Recipe_App
+```
+
+### 3. Install dependencies
+
+```bash id="dx8h0v"
+flutter pub get
+```
+
+### 4. Run the app
+
+```bash id="vl50f6"
+flutter run
+```
+
+---
+
+## 🔌 API Used
+
+This project uses a free recipe API such as:
+
+* Spoonacular API
+
+---
+
+
+
+## ✨ Future Improvements
+
+* ❤️ Add Favorites feature
+* 🔐 User Authentication (Login / Signup)
+* ☁️ Firebase Integration
+
+---
+
+## 👨‍💻 Author
+
+**Mohamed Ahmed**
+GitHub: https://github.com/mohamed-ahmed-coding
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
